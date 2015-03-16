@@ -1,0 +1,24 @@
+{
+  "name": "hexo-generator-cname3",
+  "version": "0.0.1",
+  "description": "CNAME file generator for hexo 3.0 blogs",
+  "main": "lib/hexo-generator-cname.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bapti/hexo-generator-cname.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-generator-cname",
+    "cname"
+  ],
+  "author": "Neil Crawford <neil.crawford@gmail.com> (https://github.com/bapti)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bapti/hexo-generator-cname/issues"
+  },
+  "homepage": "https://github.com/bapti/hexo-generator-cname"
+}
