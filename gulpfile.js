@@ -23,7 +23,7 @@ gulp.task('clean', function(done) {
 gulp.task('build', ['clean'], function() {
   return gulp
     .src("./src/**/*.coffee")
-    .pipe(coffee())
+    .pipe(coffee({bare: true}).on('error', console.log))
     .pipe(gulp.dest("./lib"));
 });
 
@@ -41,7 +41,7 @@ gulp.task('watch', ['test'], function() {
 gulp.task('test', ['build'], function () {
   return gulp
     .src('./test/**/*.coffee', {read: false})
-    .pipe(coffee())
+    .pipe(coffee({bare: true}))
     .pipe(mocha({reporter: 'Spec'}))
     .on('error', function(err){
       console.log(err.toString());
