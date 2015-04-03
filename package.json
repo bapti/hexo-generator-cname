@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-cname3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CNAME file generator for hexo 3.0 blogs",
   "main": "lib/hexo-generator-cname.js",
   "scripts": {
