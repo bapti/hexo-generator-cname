@@ -7,7 +7,10 @@ First install the dependency
 npm install --save hexo-generator-cname3
 ```
 #### Usage
-In your `_config.yml` file add your CNAME - i.e `hexo.io`
+In your `_config.yml` file add a `cname` field:
+```
+cname: hexo.io
+```
 
 #### Running this code and tests
 ```sh
